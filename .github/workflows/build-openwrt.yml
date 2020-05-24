@@ -80,7 +80,6 @@ jobs:
           mv smartdns1/package/openwrt .
           mv openwrt smartdns
           rm -rf smartdns1
-          
           cp -r ../../../package/luci-app-smartdns .
           
       - name: Install Clash Binaries
