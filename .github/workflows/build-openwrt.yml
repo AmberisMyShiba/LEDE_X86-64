@@ -62,7 +62,7 @@ jobs:
       run: git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
       
     - name: Install Extra Packages
-        run: |
+      run: |
           cd openwrt/lede/package/
           #git clone https://github.com/frainzy1477/luci-app-clash
           #sed -i 's/SUBMENU:=2. Clash/SUBMENU:=3. Applications/' luci-app-clash/Makefile
