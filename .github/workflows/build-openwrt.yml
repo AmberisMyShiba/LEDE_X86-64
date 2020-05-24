@@ -82,8 +82,8 @@ jobs:
           rm -rf smartdns1
           cp -r ../../../package/luci-app-smartdns .
           
-      - name: Install Clash Binaries
-        run: |
+    - name: Install Clash Binaries
+      run: |
           cd /package/base-files/files
           mkdir -p etc/clash
           wget -qO- https://github.com/Dreamacro/clash/releases/download/v0.20.0/clash-linux-armv8-v0.20.0.gz | gunzip -c > etc/clash/clash
