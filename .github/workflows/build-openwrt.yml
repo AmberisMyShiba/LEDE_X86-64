@@ -75,7 +75,6 @@ jobs:
           git clone -b master https://github.com/vernesong/OpenClash
           mv OpenClash/luci-app-openclash/ .
           rm -rf OpenClash/
-
           git clone https://github.com/pymumu/smartdns.git
           mv smartdns smartdns1
           mv smartdns1/package/openwrt .
@@ -95,7 +94,7 @@ jobs:
           mkdir -p usr/share/clash
           echo 0.20.0 > usr/share/clash/core_version
 
-- name: Load custom feeds
+    - name: Load custom feeds
       run: |
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
         chmod +x $DIY_P1_SH
