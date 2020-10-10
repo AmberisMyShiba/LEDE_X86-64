@@ -16,3 +16,7 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 
 # Add an openclash feed
 sed -i '$a src-git openclash https://github.com/vernesong/OpenClash' feeds.conf.default
+
+# Replace argon theme
+rm -rf package/lean/luci-theme-argon/
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
