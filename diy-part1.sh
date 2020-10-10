@@ -16,3 +16,7 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 
 # Add an openclash feed
 sed -i '$a src-git openclash https://github.com/vernesong/OpenClash' feeds.conf.default
+
+# Add luci-themes feed
+sed -i '$a src-git darkmatter git://github.com/apollo-ng/luci-theme-darkmatter.git' feeds.conf.default
+sed -i '$a src-git rosy https://github.com/rosywrt/luci-theme-rosy.git;openwrt-18.06' feeds.conf.default
