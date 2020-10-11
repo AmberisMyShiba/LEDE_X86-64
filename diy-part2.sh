@@ -14,3 +14,6 @@
 # Replace argon theme
 rm -rf package/lean/luci-theme-argon/
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+
+# Add Extra packages
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/lean/luci-app-guardhome
