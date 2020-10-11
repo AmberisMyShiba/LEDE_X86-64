@@ -20,4 +20,4 @@ sed -i '$a src-git openclash https://github.com/vernesong/OpenClash' feeds.conf.
 # Add luci-themes feed
 sed -i '$a src-git darkmatter git://github.com/apollo-ng/luci-theme-darkmatter.git' feeds.conf.default
 sed -i '$a src-git rosy https://github.com/rosywrt/luci-theme-rosy.git;openwrt-18.06' feeds.conf.default
-#sed -i '$a src-git argon https://github.com/jerrykuku/luci-theme-argon.git;openwrt-18.06' feeds.conf.defautl
+#sed -i '$a src-git argon https://github.com/jerrykuku/luci-theme-argon.git;18.06' feeds.conf.defautl
