@@ -3,26 +3,26 @@ src-git luci https://github.com/coolsnowwolf/luci
 src-git routing https://git.openwrt.org/feed/routing.git
 src-git telephony https://git.openwrt.org/feed/telephony.git
 src-git freifunk https://github.com/freifunk/openwrt-packages.git
-#src-git helloworld https://github.com/fw876/helloworld
+src-git helloworld https://github.com/fw876/helloworld
 #src-git lienol https://github.com/Lienol/openwrt-package
 #src-git openclash https://github.com/vernesong/OpenClash
 
-# add Extra packages from one repository named:kenzok8
-# extra packages include:
-# GFWapp:ssr-plus,passwall,openclash
-# DNSapp:adguardhome,smarddns
-# Themes:theme-ifit,argon_new
-src-git kenzo https://github.com/kenzok8/openwrt-packages
-# passwall compile dependency
-src-git small https://github.com/kenzok8/small
+## add Extra packages from one repository named:kenzok8
+## extra packages include:
+## GFWapp:ssr-plus,passwall,openclash
+## DNSapp:adguardhome,smarddns
+## Themes:theme-ifit,argon_new
+# src-git kenzo https://github.com/kenzok8/openwrt-packages
+## passwall compile dependency
+# src-git small https://github.com/kenzok8/small
 
-# luci-theme-darkmatter
+## luci-theme-darkmatter
 src-git darkmatter git://github.com/apollo-ng/luci-theme-darkmatter.git
-# luci-theme-rosy
-#src-git luci https://github.com/rosywrt/luci.git
+## luci-theme-rosy
+# src-git luci https://github.com/rosywrt/luci.git
 src-git rosy https://github.com/rosywrt/luci-theme-rosy.git;openwrt-18.06
-# luci-theme-ifit
-#src-git ifit https://github.com/kenzok8/luci-theme-ifit.git
+## luci-theme-ifit
+# src-git ifit https://github.com/kenzok8/luci-theme-ifit.git
 
 #src-git video https://github.com/openwrt/video.git
 #src-git targets https://github.com/openwrt/targets.git
