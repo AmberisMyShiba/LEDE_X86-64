@@ -17,10 +17,10 @@ src-git helloworld https://github.com/fw876/helloworld
 # src-git small https://github.com/kenzok8/small
 
 ## luci-theme-darkmatter
-src-git darkmatter git://github.com/apollo-ng/luci-theme-darkmatter.git
+#src-git darkmatter git://github.com/apollo-ng/luci-theme-darkmatter.git
 ## luci-theme-rosy
 # src-git luci https://github.com/rosywrt/luci.git
-src-git rosy https://github.com/rosywrt/luci-theme-rosy.git;openwrt-18.06
+#src-git rosy https://github.com/rosywrt/luci-theme-rosy.git;openwrt-18.06
 ## luci-theme-ifit
 # src-git ifit https://github.com/kenzok8/luci-theme-ifit.git
 
